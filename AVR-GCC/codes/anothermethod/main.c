@@ -2,7 +2,7 @@
 #include <avr/io.h>
 #include <util/delay.h> 
 
-int Q1=0,Q2=0,Q3=0,Q4=0,Q44=1;
+int Q1=0,Q2=0,Q3=0,Q4=0,Q44=1;   #change vcc to gnd accordingly
 int D1,D2,D3,D4;
  
 void clk1()
@@ -28,8 +28,8 @@ if(Q4,Q3,Q2,Q1);
 clk1();
 d(Q4,Q3,Q2,Q1);
 	Q2=D3;
-	Q4=Q3;
-	Q4=D4;
+	Q3=D4;
+	Q4;     connect to the LEDs input
 clk1();
 (Q4,Q3,Q2,Q1);
 	}
