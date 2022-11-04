@@ -43,7 +43,7 @@ plt.plot(x, y, '-r', label='y=-x+7')
 q=np.array([2,1])
 n=np.array(([1,1])) #normal vector
 m=np.array([-1,1])
-p=np.array([-3,-4])
+p=np.array([3,4])
 
 #generating the line
 x_qp=line_gen(q,p)
